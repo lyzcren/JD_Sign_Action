@@ -64,8 +64,7 @@ function setupCookie() {
 }
 
 function sendNotificationIfNeed() {
-
-  if (!push_key && !push_key_turbo) {
+  if (!push_key) {
     console.log('执行任务结束!'); return;
   }
 
@@ -80,7 +79,7 @@ function sendNotificationIfNeed() {
   let SCKEY = push_key.replace(/[\r\n]/g,"")
 
   const options ={
-    uri:  `https://scapi.ftqq.com/${SCKEY}.send`,
+    uri:  `https://sc.ftqq.com/${SCKEY}.send`,
     form: { text, desp },
     json: true,
     method: 'POST'
