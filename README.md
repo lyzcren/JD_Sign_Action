@@ -7,7 +7,7 @@
 
 ## 触发方式
 * 点亮`Star`
-* 早上8点定时执行
+* 下午4点定时执行
 *  自定义：.github/workflows/work.yaml 编辑
 
 ## 注意问题
