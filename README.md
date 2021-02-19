@@ -30,6 +30,7 @@
 	- `JD_COOKIE`：账号1Cookie
 	- `JD_DUAL_COOKIE`：账号2Cookie(选填)
 	- `PUSH_KEY`：Server酱SCKEY
+	- `PUSH_KEY_TURBO`：新版Server酱SCKEY（Turbo版）
 * 点击`Star`，任务会自动执行，运行进度和结果可以在`Actions`页面查看；
 * 当任务运行完成时，会将运行结果和错误信息打包到`Artifacts`，可自行下载查看；
 * 如果配置了Server酱，运行结果会推送到微信；
@@ -48,6 +49,12 @@
 * 菜单栏`微信推送`扫描绑定微信；
 * 菜单栏`发送消息`拷贝SCKEY；
 
+
+## 获取新版Server酱SCKEY
+
+* 微信扫码登录(https://sct.ftqq.com/)官网；
+* 菜单栏`SendKey`，点击`重新绑定微信测试号`并按提示完成操作；
+* 点击`复制`按钮拷贝SendKey；
 
 
 ## 效果截图
