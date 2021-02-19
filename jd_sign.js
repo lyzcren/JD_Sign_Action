@@ -12,7 +12,7 @@ const cookie = process.env.JD_COOKIE
 // 京东Cookie
 const dual_cookie = process.env.JD_DUAL_COOKIE
 // Server酱SCKEY
-const push_key = process.env.PUSH_KEY
+const push_key = process.env.PUSH_KEY_NEW
 
 // 京东脚本文件
 const js_url = 'https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js'
@@ -78,7 +78,7 @@ function sendNotificationIfNeed() {
   let SCKEY = push_key.replace(/[\r\n]/g,"")
 
   const options ={
-    uri:  `https://sc.ftqq.com/${SCKEY}.send`,
+    uri:  `https://sctapi.ftqq.com/${SCKEY}.send`,
     form: { text, desp },
     json: true,
     method: 'POST'
