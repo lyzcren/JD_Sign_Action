@@ -52,7 +52,7 @@
 
 ## 获取新版Server酱SCKEY
 
-* 微信扫码登录(https://sct.ftqq.com/)官网；
+* 微信扫码登录[Server酱](https://sct.ftqq.com/)官网；
 * 菜单栏`SendKey`，点击`重新绑定微信测试号`并按提示完成操作；
 * 点击`复制`按钮拷贝SendKey；
 
