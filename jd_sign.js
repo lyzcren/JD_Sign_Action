@@ -72,7 +72,7 @@ function sendNotificationIfNeed() {
     console.log('没有执行结果，任务中断!'); return;
   }
 
-  let text = "京东签到_" + dateFormat();
+  let text = "AutoJD_" + dateFormat();
   let desp = fs.readFileSync(result_path, "utf8")
 
   // 去除末尾的换行
@@ -110,7 +110,7 @@ function sendNotificationIfNeed_turbo() {
     console.log('没有执行结果，任务中断!'); return;
   }
 
-  let title = "京东签到_" + dateFormat();
+  let title = "AutoJD_" + dateFormat();
   let desp = fs.readFileSync(result_path, "utf8")
 
   // 去除末尾的换行
